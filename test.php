@@ -3,7 +3,8 @@
     <title>toni714's Github Page</title>
     </head>
     <body>
-    Test
-        <a href="test.php">Click HERE for PHP-test</a>
+        <?php
+            echo 'hi, im working';
+        ?>
     </body>
 </html>
