@@ -1,0 +1,17 @@
+.p-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 16px;
+}
+
+img{
+    width: 40%;
+}
+
+.g-container{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-bottom: 10vh;
+}

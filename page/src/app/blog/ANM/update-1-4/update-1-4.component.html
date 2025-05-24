@@ -1,0 +1,72 @@
+<div class="g-container">
+  <h2>Update zu ANM v1.4.0</h2>
+
+  <p>
+    Mit dem Update zur Version 1.4.0 des Pakets wechseln wir das Format von
+    Curseforge zu Modrinth um bei künfitigen Updates die Tastatureinstellungen
+    und andere Konfigurationen nicht zu überschreiben.<br />
+    Bei dem bisherigen Format ist dies nicht möglich. <br />
+    Um eure aktuellen Einstellungen zu behalten hier eine Anleitung, wie eine
+    alte konfiguration in eine neue Instanz kopiert werden kann.
+  </p>
+  <h3>Schritt 1: Neue Instanz anlegen</h3>
+  <div class="p-container">
+    <div>
+      Da bei einer bestehenden Instanz nicht das Packformat geändert werden
+      kann, müssen wir zunächst eine neue Instanz anlegen um später die
+      Einstellungen dorthin zu kopieren. Beim Nächsten Update erlaubt uns das
+      Modrinth Format die bestehende Instanz einfach zu updaten und dabei nicht
+      alle Eintellungen zu überschreiben.<br />
+      Das Pack-File kann hier herunter geladen werden:
+      <a mat-flat-button href="static/data/ANM-Modpack_1.4.0.mrpack"
+        >ANM-Modpack v1.4.0</a
+      >
+    </div>
+    <img src="static/img/update-1-4/new-instance.png" />
+  </div>
+  <div class="p-container">
+    Um eine neue Instanz zu erstellen, öffnet den Prism Launcher und erstellt
+    mir rechtsklick ins freie Feld eine neue Instanz. dabei könnt ihr irgend
+    einen namen wählen, der sich von der alten Instanz unterscheidet.
+    <img src="static/img/update-1-4/create-instance.png" />
+  </div>
+  <h3>Schritt 2: Daten aus der alten Instanz kopieren</h3>
+  <div class="p-container">
+    Nachdem die neue Instanz erstellt wurde, kopieren wir die Einstellungen aus
+    der alten Instanz in den Ordner der neuen. Dazu rechtsklick auf die alte
+    Instanz und auf "Folder" oder "Ordner" klicken.
+    <img src="static/img/update-1-4/goto-old.png" />
+  </div>
+  <div>
+    Dort gehen wir in den minecraft Ordner und kopieren je nach Bedarf die
+    folgenden Dateien/Ordner:
+  </div>
+  <ul>
+    <li>
+      die options.txt Datei für Keybinds und allgemeine Spieleinstellungen
+    </li>
+    <li>den journeymap Ordner für die Weltkarte und Wegpunkte</li>
+    <li>den saves Ordner, falls ihr Einzelspieler-Welten angelegt habt</li>
+    <li>die Ordner resourcepacks und shaderpacks, falls ihr diese nutzt</li>
+    <li>den Ordner screenshots, falls ihr welche gemacht habt</li>
+    <li>
+      Aus dem Config Ordner (nicht den ganten Ordner kopieren, nur einelne unter
+      Ordner/Dateien):
+      <ul>
+        <li>die Datei oculus.properties für shader einstellungen</li>
+        <li>den jei Ordner für die itemliste im inventar</li>
+        <li>
+          den voicechat Ordner für die einstellungen der Proximity Chat mods
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <p>
+    Diese Dateien und Ordner müssen dann an die selbe Selle von der sie kopiert
+    wurden in der neuen instanz wieder eingefügt werden. Wenn dabei Dateien
+    überschrieben werden sollen ist das kein Problem, achtet aber darauf nicht
+    den Mods Ordner zu überschreiben oder irgendwelche Dateien im config Ordner,
+    die nicht oben genannt sind.
+  </p>
+</div>
